@@ -31,7 +31,7 @@ function Adduser(){
             
         }
         try{
-            axios.post('https://users-app-api.onrender.com/add',userdata);
+            axios.post('https://user-app-example-back.onrender.com/add',userdata);
             setuser({
                 Name:"",
                 Email:"",

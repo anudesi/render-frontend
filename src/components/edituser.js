@@ -27,7 +27,7 @@ function Edituser(){
     const routeParams=useParams();
     const id=routeParams.id;
     function getsingledata(){
-        axios.get(`https://users-app-api.onrender.com/getsingleuser/${id}`).then(res=>{
+        axios.get(`https://user-app-example-back.onrender.com/getsingleuser/${id}`).then(res=>{
             setnewdata({
                 Name:res.data.name,
                 Email:res.data.email,
